@@ -3,9 +3,7 @@ function FizzBuzzer(numbers) {
     return {
         fizz: function() {
             for(var i = 0; i < numbers.length; i++) {
-                if(numbers[i]%3 ==0 && numbers[i]%5 == 0) {
-                    console.log(numbers[i]);
-                } else if(numbers[i]%3 == 0) {
+                if(numbers[i]%3 == 0) {
                     console.log('fizz');
                 } else {
                     console.log(numbers[i]);
@@ -14,9 +12,7 @@ function FizzBuzzer(numbers) {
         },
         buzz: function() {
             for(var i = 0; i < numbers.length; i++) {
-                if(numbers[i]%3 ==0 && numbers[i]%5 == 0) {
-                    console.log(numbers[i]);
-                } else if(numbers[i]%5 == 0) {
+                if(numbers[i]%5 == 0) {
                     console.log('buzz');
                 } else {
                     console.log(numbers[i]);
